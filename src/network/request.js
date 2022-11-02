@@ -2,7 +2,7 @@ import axios from 'axios'
 import store from '../store'
 import router from "../router";
 
- // axios.defaults.withCredentials = true  test
+ // axios.defaults.withCredentials = true 
 // 对axios的封装，之后的每个请求都可以用这个封装的方法请求api接口的数据
 export function request(config) {
   const instance = axios.create({
